@@ -57,7 +57,7 @@ def save_clean_dataset(df, output_dir, filename):
     print(f"[SUCCESS] Dataset siap latih berhasil diperbarui dan disimpan di: {full_path}")
 
 if __name__ == "__main__":
-    input_path = "namadataset_raw/train.csv"
+    input_path = "namadataset_raw/credit_score_clean.csv"
     output_directory = "preprocessing/namadataset_preprocessing"
     output_name = "credit_score_clean.csv"
     
